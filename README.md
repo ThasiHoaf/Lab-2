@@ -77,4 +77,6 @@ Nếu muốn dùng tính năng đăng nhập Google, hãy thêm `google-login` v
 - Firebase Authentication
 
 ## Video hướng dẫn
-[Link]("https://drive.google.com/file/d/1IiTvyugKPNNGmsAVbPwNk6Iv_HCQmwPq/view?usp=sharing")
+[Link to video](https://drive.google.com/file/d/1IiTvyugKPNNGmsAVbPwNk6Iv_HCQmwPq/view?usp=sharing)
+
+
