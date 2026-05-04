@@ -1,0 +1,14 @@
+# Core Backend
+fastapi
+uvicorn
+python-multipart
+pydantic
+# Machine Learning / Computer Vision
+deepface
+tf-keras
+opencv-python-headless
+numpy
+# Frontend
+streamlit
+
+firebase-admin
