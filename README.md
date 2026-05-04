@@ -31,10 +31,9 @@
 ## ⚙️ Cài đặt
 
 ```bash
-cd /home/hoa/ComputationalThinking/chatbot-page
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
+git clone https://github.com/ThasiHoaf/Lab-2
+cd Lab-2
+pip install -r requirements.txt 
 ```
 
 ## ▶️ Chạy ứng dụng
@@ -77,3 +76,5 @@ Nếu muốn dùng tính năng đăng nhập Google, hãy thêm `google-login` v
 - DeepFace / TensorFlow
 - Firebase Authentication
 
+## Video hướng dẫn
+[Link]("https://drive.google.com/file/d/1IiTvyugKPNNGmsAVbPwNk6Iv_HCQmwPq/view?usp=sharing")
