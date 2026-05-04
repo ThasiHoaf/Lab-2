@@ -1,4 +1,5 @@
 import os
+
 os.environ['CUDA_VISIBLE_DEVICES'] = '-1'  # Ép dùng CPU để tránh crash do GPU Driver
 os.environ['TF_CPP_MIN_LOG_LEVEL'] = '2'   # Ẩn bớt các log cảnh báo dài dòng của TensorFlow
 import io
@@ -66,8 +67,8 @@ def predict_age_gender(image_bytes: bytes) -> dict:
             results = DeepFace.analyze(
                 img, 
                 actions=['age', 'gender'], 
-                enforce_detection=False, 
-                detector_backend='opencv'
+                enforce_detection=True, 
+                detector_backend='retinaface'
             )
             
             face_data = results[0] if isinstance(results, list) else results
